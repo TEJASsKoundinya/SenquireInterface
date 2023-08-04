@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    background-color:rgb(0, 0, 0) ;
+    color:rgb(255, 255, 255);
+}
+
+/* styles.css */
+
+body {
+  margin: 0;
+}
+
+/* Updated vertical-navbar styles */
+.vertical-navbar {
+  background-color: #00a2e2;
+  width: 80px; /* Adjust the width as needed */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.vertical-navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.vertical-navbar li {
+  margin-bottom: 10px;
+}
+
+.Title_holder {
+    font-size: 36px;
+    display:block;
+    margin:auto;
+    text-align:center;
+    padding-top:.5em;
+    max-width:90vw;
+    font-family:'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    cursor:default;
+}
+
+
+.icon
+{
+
+    color: #000000;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    justify-content: center;
+    padding-left: 45px;
+    padding-right: 25px;
+
+
+}
+
+
+.icon:hover{
+
+    color: rgb(136, 208, 239);
+    height: 35px;
+    width: 35px;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    justify-content:center;
+    padding-left: 45px;
+    padding-right: 25px;
+
+}
+
+.CountainData{
+    height:50px ;
+    width:50px ;
+
+}
+
+.holder{
+      padding-left: 5px;
+    padding-right: 0px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif, bold;
+}
+
+.Fitlogo{
+      height: 55px;
+    width: 80px;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}

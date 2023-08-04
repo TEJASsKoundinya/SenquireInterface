@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.CameraCountian{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.container{
+  display:block;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 5px;
+  padding-top: 25px;
+  padding-left: 110px;
+
+
+}
+
+.ViewAT{
+  display: block;
+  justify-content: center;
+  padding-bottom: 5px;
+  padding-top: 25px;
+  padding-left: 110px;
+  background-color: #000000b9;
+  height: 100%;
+}
+
+.Video{
+  width: 100%;
+  max-width: 100px;
+  height:100px; /* Adjust the maximum width as needed */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color:aliceblue;
+
+}
+.imageC{
+  width: 100px;
+  max-width: 100px;
+  height:100px; /* Adjust the maximum width as needed */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color:rgb(110, 184, 249);
+
+}
+
+.About{
+  width: auto;
+
+}
+
+.Countain_box_add{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px; /* Make sure this matches the container's border-radius */
+  background-color:aliceblue;
+}
+
+.Cam_hold{
+  width: 100%;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color:aliceblue;
+
+}
+
+.button {
+  background-color: #0461c5; /* Blue color, you can change it to your preferred color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 5px 5px 5px 5px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change button color on hover */
+.button:hover {
+  background-color: #0aa6b7fc; /* Darker shade of the original color */
+}
+
+/* Styles for the text */
+.my-text {
+  font-family: "Arial", sans-serif; /* Choose the desired font family */
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #333; /* Text color */
+  line-height: 1.5; /* Line height for better readability */
+  letter-spacing: 0.5px; /* Adjust letter spacing as needed */
+  text-align: center; /* Choose the desired alignment: left, center, right */
+  font-weight: normal; /* Choose font weight: normal, bold, or other variations */
+  text-decoration: none; /* Text decoration: underline, line-through, none */
+  text-transform: none; /* Text transformation: uppercase, lowercase, capitalize, none */
+  justify-content:center;
+}
+
+/* Change text color on hover */
+.my-text:hover {
+  color: #0095ff; /* Hover color, change it to your preferred color */
+}
+
+/* Adding a custom font from Google Fonts */
+.InputURL{
+  border-radius: 5px;
+  background-color:rgb(247, 247, 241);
+  border: #fff;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+
+}
+
+.InputField{
+  border-radius: 5px;
+  background-color:rgb(247, 247, 241);
+  border: #fff;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+
+}
+
+.OutputField{
+  border-radius: 5px;
+  background-color:rgb(247, 247, 241);
+  border: #fff;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+
+}
